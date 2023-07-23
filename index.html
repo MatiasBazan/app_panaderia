@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Panadería Fenix</title>
+        <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo styles.css -->
+    </head>
+<body>
+    <div class="header">
+        <a href="https://imgur.com/RwEFHBW" target="_blank">
+            <img class="logo" src="https://i.imgur.com/RwEFHBW.jpg" alt="Logo de la Panadería Fenix" />
+        </a>
+        <h1>Agenda Panadería Fenix</h1>
+    </div>
+
+    <script src="app.js"></script>
+
+<!-- Agregar Cobro -->
+  <!-- Formulario Agregar Cobro -->
+  <div class="form-container">
+    <h2>Agregar Deuda de Cliente</h2>
+    <div class="input-container">
+        <label for="cobroNombre">Nombre del Cliente a Cobrar:</label>
+        <input type="text" id="cobroNombre" placeholder="Nombre">
+    </div>
+    <div class="input-container">
+        <label for="cobroMonto">Monto de la Deuda a Cobrar:</label>
+        <input type="number" id="cobroMonto" placeholder="Monto">
+    </div>
+    <div class="input-container">
+        <label for="cobroFecha">Fecha de la Deuda a Cobrar:</label>
+        <input type="date" id="cobroFecha">
+    </div>
+    <button class="agregar-btn" onclick="agregarCobro()">Agregar Deuda Del Cliente</button>
+</div>
+
+<!-- Ver Cobros -->
+<div class="ver-lista-container">
+    <button class="ver-lista-btn" onclick="mostrarCobrosGuardados()">Ver Deudas De Clientes</button>
+    <ul id="listaCobros"></ul>
+</div>
+
+<!-- Formulario Agregar Pago -->
+<div class="form-container">
+    <h2>Agregar Deuda a Proveedores</h2>
+    <div class="input-container">
+        <label for="pagoNombre">Nombre del Proveedor:</label>
+        <input type="text" id="pagoNombre" placeholder="Nombre">
+    </div>
+    <div class="input-container">
+        <label for="pagoMonto">Monto de la deuda:</label>
+        <input type="number" id="pagoMonto" placeholder="Monto">
+    </div>
+    <div class="input-container">
+        <label for="pagoFecha">Fecha de  la deuda:</label>
+        <input type="date" id="pagoFecha">
+    </div>
+    <button class="agregar-btn" onclick="agregarPago()">Agregar Deuda A Proveedores</button>
+</div>
+
+<!-- Ver Pagos -->
+<div class="ver-lista-container">
+    <button class="ver-lista-btn" onclick="mostrarPagosGuardados()">Ver Deudas A Proveedores</button>
+    <ul id="listaPagos"></ul>
+</div>
+
+</body>
+</html>
+

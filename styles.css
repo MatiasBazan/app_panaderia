@@ -1,0 +1,100 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #b3a104;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 15px 0;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 50px;
+  border: 4px solid #61616111;
+  border-radius: 1px;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #1a1a19;
+  border-radius: 4px;
+}
+
+.agregar-btn,
+.ver-lista-btn {
+  background-color: #65bb7b;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.ver-lista-container {
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+/* Estilos específicos para el botón de eliminar */
+.eliminar-btn {
+  background-color: #FF0000;
+}
+
+/* Estilos para el contenedor de la lista de cobros */
+#listaCobros {
+  width: 150%; /* Puedes ajustar este valor según tus preferencias */
+  max-width: 600px; /* Puedes ajustar este valor según tus preferencias */
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f5f5f5;
+}
+
+/* Estilos para el contenedor de la lista de pagos */
+#listaPagos {
+  width: 150%; /* Puedes ajustar este valor según tus preferencias */
+  max-width: 600px; /* Puedes ajustar este valor según tus preferencias */
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f5f5f5;
+}
+/* styles.css */
+
+
+
+
+
+
+
+
